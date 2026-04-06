@@ -21,7 +21,7 @@ Prerequisites:
 * (Optional) PostgreSQL if switching from the default H2 memory database.
 
 Installation Steps:
-1. Clone the repository: git clone https://github.com/yourusername/finance-dashboard.git
+1. Clone the repository
 2. Navigate to the directory: cd finance-dashboard
 3. Build the project: mvn clean install
 4. Run the application: mvn spring-boot:run
