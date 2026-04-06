@@ -200,7 +200,8 @@ The API utilizes a global exception handler. All errors return a standardized JS
     "amount": "must be greater than or equal to 0.01",
     "category": "must not be blank"
   }
-}```
+}
+```
 
 403 Forbidden (Role Access Violation Example)
 ```json
@@ -209,7 +210,8 @@ The API utilizes a global exception handler. All errors return a standardized JS
   "status": 403,
   "error": "Forbidden",
   "message": "Access Denied"
-}```
+}
+```
 
 404 Not Found (Resource Missing Example)
 ```json
@@ -218,4 +220,5 @@ The API utilizes a global exception handler. All errors return a standardized JS
   "status": 404,
   "error": "Not Found",
   "message": "User not found with ID: 99"
-}```
+}
+```
