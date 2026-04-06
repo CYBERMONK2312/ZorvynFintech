@@ -47,7 +47,7 @@ Endpoints for managing user accounts, authentication, and system access.
 * Function: Creates a new user account.
 * Endpoint: POST /auth/register
 * Required Role: Public (None)
-* Request Body: {"username": "john_doe", "password": "securepassword"}
+* Request Body: json```{"username": "john_doe", "password": "securepassword"}```
 * Success Response: 201 Created
 * Response Body: JWT Access Token.
 
@@ -55,7 +55,7 @@ Endpoints for managing user accounts, authentication, and system access.
 * Function: Authenticates a user and returns a JWT.
 * Endpoint: POST /auth/login
 * Required Role: Public (None)
-* Request Body: {"username": "john_doe", "password": "securepassword"}
+* Request Body: json```{"username": "john_doe", "password": "securepassword"}```
 * Success Response: 200 OK
 * Response Body: JWT Access Token.
 
